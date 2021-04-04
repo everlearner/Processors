@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Single_Cycle/test_Main_isim_beh.exe" -prj "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Single_Cycle/test_Main_beh.prj" "work.test_Main" "work.glbl" 

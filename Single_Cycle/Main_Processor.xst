@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Single_Cycle/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Single_Cycle/xst"
+elaborate
+-ifn Main_Processor.prj
+-ifmt mixed

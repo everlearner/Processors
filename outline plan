@@ -1,0 +1,48 @@
+input Clk
+input Reset
+
+
+modules
+	Instruction_Fetch
+	Register_File
+	Execution
+	Write_Back
+
+
+## Intructions
+
+ID = 0527H
+A = 5;	x = A mod 8     = 5
+B = 2;	y = (B+2) mod 8 = 4 
+C = 7;	z = (C+3) mod 8 = 2
+
+li R5,3				// 00 101 011 -- 0x2B  => R5 = 3
+addi R5, 2			// 01 101 010 -- 0x6A  => R5 = 5	
+addi R4, 3			// 01 100 011 -- 0x63  => R4 = 7
+j L1				// 11 000 001 -- 0xC1
+li R2, 4			// 00 010 100 -- 0x14 -> 4 cannot be represented in3bit
+L1: addi R2, -3		// 01 010 101 -- 0x55  => R2 = -1
+
+## Instruction Memory plan
+
+reg [7:0] Mem [15:0];
+Mem[0] = 8'h2b;
+Mem[1] = 8'h6a;
+Mem[2] = 8'h63;
+Mem[3] = 8'hc1;
+Mem[4] = 8'h14;
+Mem[5] = 8'h55; 
+
+
+
+## Immediate Generation Block 
+
+output [7:0] Immediate_Data;
+if (Instruction_Code[7] == 0) // MSB bit ==0
+	Immediate_Data [2:0] = Instruction_Code[2:0];
+	Immediate_Data [7:3] = {5{Instruction_Code[2];}}
+
+else // MSB bit = 1
+	Immediate_Data [5:0] = Instruction_Code[5:0];
+	Immediate_Data [7:6] = {2{Instruction_Code[5];}}	
+ 

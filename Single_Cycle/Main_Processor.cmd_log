@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Single_Cycle/Main_Processor.xst" -ofn "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Single_Cycle/Main_Processor.syr" 

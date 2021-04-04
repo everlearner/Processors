@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Single_Cycle/test_Main_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test_Main" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/test_Main/Clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Main/Reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Reset</obj_property>
+      <obj_property name="ObjectShortName">Reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Main/uut/m2/RegMem[7]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[7,7:0]</obj_property>
+      <obj_property name="ObjectShortName">RegMem[7,7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Main/uut/m2/RegMem[6]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[6,7:0]</obj_property>
+      <obj_property name="ObjectShortName">RegMem[6,7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Main/uut/m2/RegMem[5]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[5,7:0]</obj_property>
+      <obj_property name="ObjectShortName">RegMem[5,7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Main/uut/m2/RegMem[4]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[4,7:0]</obj_property>
+      <obj_property name="ObjectShortName">RegMem[4,7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Main/uut/m2/RegMem[3]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[3,7:0]</obj_property>
+      <obj_property name="ObjectShortName">RegMem[3,7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Main/uut/m2/RegMem[2]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[2,7:0]</obj_property>
+      <obj_property name="ObjectShortName">RegMem[2,7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Main/uut/m2/RegMem[1]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[1,7:0]</obj_property>
+      <obj_property name="ObjectShortName">RegMem[1,7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Main/uut/m2/RegMem[0]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[0,7:0]</obj_property>
+      <obj_property name="ObjectShortName">RegMem[0,7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Main/uut/m2/R_W_Reg_Num" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">R_W_Reg_Num[2:0]</obj_property>
+      <obj_property name="ObjectShortName">R_W_Reg_Num[2:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Main/uut/m2/Read_Data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Read_Data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Read_Data[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Main/uut/m2/Imm_Data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Imm_Data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Imm_Data[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Main/uut/m1/Instruction_Code" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Instruction_Code[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Instruction_Code[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Main/uut/m1/PC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PC[7:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,2 @@
+verilog work "Instruction_Memory.v"
+verilog work "Instruction_Fetch.v"

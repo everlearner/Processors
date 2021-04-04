@@ -1,0 +1,7 @@
+verilog isim_temp "Instruction_Memory.v"
+verilog isim_temp "Register_File.v"
+verilog isim_temp "Instruction_Fetch.v"
+verilog isim_temp "Execution_Writeback.v"
+verilog isim_temp "Main_Processor.v"
+verilog isim_temp "test_Main.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,0 +1,41 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Single_Cycle/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Single_Cycle/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "Instruction_Memory.v" in library work
+Compiling verilog file "Register_File.v" in library work
+Module <Instruction_Memory> compiled
+Compiling verilog file "Instruction_Fetch.v" in library work
+Module <Register_File> compiled
+ERROR:HDLCompilers:26 - "Instruction_Fetch.v" line 7 unexpected token: 'reg'
+ERROR:HDLCompilers:28 - "Instruction_Fetch.v" line 20 'PCSrc' has not been declared
+ERROR:HDLCompilers:28 - "Instruction_Fetch.v" line 26 'PCSrc' has not been declared
+Compiling verilog file "Execution_Writeback.v" in library work
+Module <Instruction_Fetch> compiled
+Compiling verilog file "Main_Processor.v" in library work
+Module <Execution_Writeback> compiled
+Module <Main_Processor> compiled
+Analysis of file <"Main_Processor.prj"> failed.
+--> 
+
+Total memory usage is 4468304 kilobytes
+
+Number of errors   :    3 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

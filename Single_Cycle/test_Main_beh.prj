@@ -1,0 +1,7 @@
+verilog work "Instruction_Memory.v"
+verilog work "Register_File.v"
+verilog work "Instruction_Fetch.v"
+verilog work "Execution_Writeback.v"
+verilog work "Main_Processor.v"
+verilog work "test_Main.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"
