@@ -31,41 +31,17 @@ module Register_File(
 	end
 	
 	assign Read_Data = RegMem[Read_Reg_Num];
-	
-/*	case(ImmSel) // sign extension
-	1'b0:
-		begin
-			//temp = 1;
-			// sign extension
-			assign Imm_Data = {{7{Immediate_Raw[2]}}, Immediate_Raw[2:0]};
-		end
-	
-	1'b1:
-		begin
-			assign Imm_Data = {{2{Immediate_Raw[5]}}, Immediate_Raw[5:0]};
-		end
-	endcase*/
-	
+	// Sign Extension Blocks
 	assign Imm_Data = ImmSel ? {{2{Immediate_Raw[5]}}, Immediate_Raw[5:0]}:
 										{{7{Immediate_Raw[2]}}, Immediate_Raw[2:0]};
 		
-	always @(posedge Clk, RegWrite, ImmSel)
+	always @(posedge Clk, ImmSel)
 	begin
 
 		if(RegWrite == 1)
 		begin
 			RegMem[Write_Reg_Num] = Write_Data;
 		end
-
-		/*if (ImmSel == 0) // MSB bit ==0
-		begin
-			temp = 1;
-			// sign extension
-			Imm_Data [7:0] <= {{7{Immediate_Raw[2]}}, Immediate_Raw[2:0]};
-		end
-		
-		else // MSB bit == 1 i.e Jump Instruction
-			Imm_Data [7:0] <= {{2{Immediate_Raw[5]}}, Immediate_Raw[5:0]};*/
 	end	
 
 endmodule

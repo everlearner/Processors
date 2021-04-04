@@ -17,7 +17,6 @@ module Instruction_Fetch(
 		if(Reset == 1)
 		begin
 			PC <= 0;
-
 		end
 		
 		else
