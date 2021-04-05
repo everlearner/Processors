@@ -7,17 +7,16 @@
    <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
-         <ClosedNode>/Main_Processor C:|Users|Keshav Kabra|Desktop|study|3-2|CompArch|assign|Single_Cycle|Main_Processor.v/IF - Instruction_Fetch</ClosedNode>
          <ClosedNode>/Main_Processor C:|Users|Keshav Kabra|Desktop|study|3-2|CompArch|assign|Single_Cycle|Main_Processor.v/m1 - Instruction_Fetch</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Main_Processor (C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Single_Cycle/Main_Processor.v)</SelectedItem>
+         <SelectedItem>RF - Register_File (C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Single_Cycle/Register_File.v)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000016b000000020000000000000000000000000200000064ffffffff0000008100000003000000020000016b0000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000183000000020000000000000000000000000200000064ffffffff000000810000000300000002000001830000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>Main_Processor (C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Single_Cycle/Main_Processor.v)</CurrentItem>
+      <CurrentItem>RF - Register_File (C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Single_Cycle/Register_File.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -25,13 +24,13 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
    <ItemView guiview="File" >
       <ClosedNodes>
@@ -75,14 +74,13 @@
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
-         <ClosedNode>/test_Main C:|Users|Keshav Kabra|Desktop|study|3-2|CompArch|assign|Single_Cycle|test_Main.v/uut - Main_Processor/IF - Instruction_Fetch</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
          <SelectedItem>test_Main (C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Single_Cycle/test_Main.v)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000017f000000020000000000000000000000000200000064ffffffff0000008100000003000000020000017f0000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000197000000020000000000000000000000000200000064ffffffff000000810000000300000002000001970000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
       <CurrentItem>test_Main (C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Single_Cycle/test_Main.v)</CurrentItem>
    </ItemView>
@@ -105,14 +103,14 @@
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
-   <CurrentView>Behavioral Simulation</CurrentView>
+   <CurrentView>Implementation</CurrentView>
 </Project>

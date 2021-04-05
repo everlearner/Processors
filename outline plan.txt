@@ -22,8 +22,8 @@ addi R4, 3			// 01 100 011 -- 0x63  => R4 = 7
 j L1				// 11 000 001 -- 0xC1
 li R2, 4			// 00 010 100 -- 0x14 -> 4 cannot be represented in3bit
 L1: addi R2, -3		// 01 010 101 -- 0x55  => R2 = -1
-
-## Instruction Memory plan
+	
+## Instruction 	Memory plan
 
 reg [7:0] Mem [15:0];
 Mem[0] = 8'h2b;

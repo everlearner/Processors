@@ -36,9 +36,9 @@ module test_Main;
 
 	initial begin
 		Reset = 0;
-		#10;
+		#4;
 		Reset = 1;
-		#10;
+		#4;
 		Reset = 0;
 	end
 	

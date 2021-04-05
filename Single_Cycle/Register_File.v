@@ -35,7 +35,7 @@ module Register_File(
 	assign Imm_Data = ImmSel ? {{2{Immediate_Raw[5]}}, Immediate_Raw[5:0]}:
 										{{7{Immediate_Raw[2]}}, Immediate_Raw[2:0]};
 		
-	always @(posedge Clk, ImmSel)
+	always @(posedge Clk)
 	begin
 
 		if(RegWrite == 1)

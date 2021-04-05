@@ -4,10 +4,12 @@ module Execution_Writeback(
 	input ALUSrc,
 	input [7:0] Read_Data,
 	input [7:0] Imm_Data,
-	output reg [7:0] Result
+	output [7:0] Result
     );
 	
 	reg [7:0] operand1; //Check
+	
+	assign Result = operand1 + Imm_Data;
 	
 	always @(Read_Data, Imm_Data)
 	begin
@@ -21,7 +23,7 @@ module Execution_Writeback(
 			operand1 = Read_Data;
 		end
 		
-		Result <= operand1 + Imm_Data;
+		//Result <= operand1 + Imm_Data;
 	end
 
 endmodule
