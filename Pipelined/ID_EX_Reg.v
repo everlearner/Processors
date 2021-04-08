@@ -15,7 +15,7 @@ module ID_EX_Reg(
 	output reg ID_EX_ALUSrc, 
 	output reg [7:0] ID_EX_Read_Data, 
 	output reg [7:0] ID_EX_Imm_Data, 
-	output reg ID_EX_Write_Reg_Num
+	output reg [2:0] ID_EX_Write_Reg_Num
     );
 	 
 	 always @(posedge Clk, posedge Reset)
