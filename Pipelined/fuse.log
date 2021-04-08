@@ -1,0 +1,39 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Test_Main_isim_beh.exe" -prj "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Test_Main_beh.prj" "work.Test_Main" "work.glbl" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Instruction_Memory.v" into library work
+Analyzing Verilog file "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Register_File.v" into library work
+Analyzing Verilog file "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Instruction_Fetch.v" into library work
+Analyzing Verilog file "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/IF_ID_Reg.v" into library work
+Analyzing Verilog file "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/ID_EX_Reg.v" into library work
+Analyzing Verilog file "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/EX_WB_Reg.v" into library work
+Analyzing Verilog file "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Control_Unit.v" into library work
+Analyzing Verilog file "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/ALU.v" into library work
+Analyzing Verilog file "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Main_Processor.v" into library work
+Analyzing Verilog file "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Test_Main.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Main_Processor.v" Line 19: Size mismatch in connection of port <Read_Reg_Num>. Formal port size is 3-bit while actual signal size is 8-bit.
+WARNING:HDLCompiler:189 - "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Main_Processor.v" Line 20: Size mismatch in connection of port <Read_Reg_Num>. Formal port size is 3-bit while actual signal size is 8-bit.
+WARNING:HDLCompiler:189 - "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Main_Processor.v" Line 22: Size mismatch in connection of port <Read_Data>. Formal port size is 3-bit while actual signal size is 8-bit.
+WARNING:HDLCompiler:189 - "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Main_Processor.v" Line 23: Size mismatch in connection of port <ID_EX_Write_Reg_Num>. Formal port size is 3-bit while actual signal size is 8-bit.
+Completed static elaboration
+Compiling module Instruction_Memory
+Compiling module Instruction_Fetch
+Compiling module Control_Unit
+Compiling module IF_ID_Reg
+Compiling module Register_File
+Compiling module ID_EX_Reg
+Compiling module ALU
+Compiling module EX_WB_Reg
+Compiling module Main_Processor
+Compiling module Test_Main
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 11 Verilog Units
+Built simulation executable C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Test_Main_isim_beh.exe
+Fuse Memory Usage: 28352 KB
+Fuse CPU Usage: 1171 ms

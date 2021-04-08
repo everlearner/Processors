@@ -1,0 +1,39 @@
+ISim log file
+Running: C:\Users\Keshav Kabra\Desktop\study\3-2\CompArch\assign\Pipelined\Test_Main_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Test_Main_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: File "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Main_Processor.v" Line 10.  For instance uut/RF/, width 3 of formal port Read_Reg_Num is not equal to width 8 of actual signal Read_Reg_Num.
+WARNING: File "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Main_Processor.v" Line 11.  For instance uut/RF/, width 3 of formal port Write_Reg_Num is not equal to width 8 of actual signal EX_WB_Write_Reg_Num.
+WARNING: File "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Main_Processor.v" Line 10.  For instance uut/IDEX/, width 3 of formal port Read_Reg_Num is not equal to width 8 of actual signal Read_Reg_Num.
+WARNING: File "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Main_Processor.v" Line 11.  For instance uut/IDEX/, width 3 of formal port Write_Reg_Num is not equal to width 8 of actual signal Write_Reg_Num.
+WARNING: File "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Main_Processor.v" Line 11.  For instance uut/IDEX/, width 1 of formal port ID_EX_Write_Reg_Num is not equal to width 8 of actual signal ID_EX_Write_Reg_Num.
+WARNING: File "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Main_Processor.v" Line 10.  For instance uut/ADD/, width 3 of formal port Read_Data is not equal to width 8 of actual signal ID_EX_Read_Data.
+WARNING: File "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Main_Processor.v" Line 11.  For instance uut/EXWB/, width 3 of formal port ID_EX_Write_Reg_Num is not equal to width 8 of actual signal ID_EX_Write_Reg_Num.
+WARNING: File "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Main_Processor.v" Line 11.  For instance uut/EXWB/, width 3 of formal port EX_WB_Write_Reg_Num is not equal to width 8 of actual signal EX_WB_Write_Reg_Num.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 160 ns : File "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Test_Main.v" Line 28
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: File "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Main_Processor.v" Line 10.  For instance uut/RF/, width 3 of formal port Read_Reg_Num is not equal to width 8 of actual signal Read_Reg_Num.
+WARNING: File "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Main_Processor.v" Line 11.  For instance uut/RF/, width 3 of formal port Write_Reg_Num is not equal to width 8 of actual signal EX_WB_Write_Reg_Num.
+WARNING: File "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Main_Processor.v" Line 10.  For instance uut/IDEX/, width 3 of formal port Read_Reg_Num is not equal to width 8 of actual signal Read_Reg_Num.
+WARNING: File "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Main_Processor.v" Line 11.  For instance uut/IDEX/, width 3 of formal port Write_Reg_Num is not equal to width 8 of actual signal Write_Reg_Num.
+WARNING: File "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Main_Processor.v" Line 11.  For instance uut/IDEX/, width 1 of formal port ID_EX_Write_Reg_Num is not equal to width 8 of actual signal ID_EX_Write_Reg_Num.
+WARNING: File "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Main_Processor.v" Line 10.  For instance uut/ADD/, width 3 of formal port Read_Data is not equal to width 8 of actual signal ID_EX_Read_Data.
+WARNING: File "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Main_Processor.v" Line 11.  For instance uut/EXWB/, width 3 of formal port ID_EX_Write_Reg_Num is not equal to width 8 of actual signal ID_EX_Write_Reg_Num.
+WARNING: File "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Main_Processor.v" Line 11.  For instance uut/EXWB/, width 3 of formal port EX_WB_Write_Reg_Num is not equal to width 8 of actual signal EX_WB_Write_Reg_Num.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 160 ns : File "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Test_Main.v" Line 28

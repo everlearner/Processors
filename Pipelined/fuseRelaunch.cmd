@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Test_Main_isim_beh.exe" -prj "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Test_Main_beh.prj" "work.Test_Main" "work.glbl" 
