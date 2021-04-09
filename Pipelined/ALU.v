@@ -5,17 +5,20 @@ module ALU(
 	input Clk, 
 	input Reset, 
 	input ALUSrc, 
-	input [2:0] Read_Data, 
+	input [7:0] Read_Data, 
 	input [7:0] Imm_Data,
+	input [7:0] EX_WB_Write_Data,
+	input Fwd_signal,
 	
 	output [7:0] Result
     );
 	 
 	reg [7:0] operand1; //Check
+	//reg [7:0] operand2;
 	
 	assign Result = operand1 + Imm_Data;
 	
-	always @(ALUSrc, Read_Data)
+	always @(ALUSrc, Read_Data, Fwd_signal)
 	begin
 		if(ALUSrc == 0) // i.e when instruction is li 
 		begin
@@ -24,10 +27,13 @@ module ALU(
 		
 		else // i.e when instruction is addi
 		begin
-			operand1 = Read_Data;
+			operand1 = Fwd_signal ? 	EX_WB_Write_Data : Read_Data;
+			
+//			if (Fwd_signal == 1)
+//				operand1 = EX_WB_Write_Data; 
+//			
+//			else
+//				operand1 = Read_Data;
 		end
-		
-		//Result <= operand1 + Imm_Data;
 	end
-
 endmodule

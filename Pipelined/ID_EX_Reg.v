@@ -14,7 +14,8 @@ module ID_EX_Reg(
 	output reg ID_EX_RegWrite, 
 	output reg ID_EX_ALUSrc, 
 	output reg [7:0] ID_EX_Read_Data, 
-	output reg [7:0] ID_EX_Imm_Data, 
+	output reg [7:0] ID_EX_Imm_Data,
+	output reg [2:0] ID_EX_Read_Reg_Num,	
 	output reg [2:0] ID_EX_Write_Reg_Num
     );
 	 
@@ -26,6 +27,7 @@ module ID_EX_Reg(
 			ID_EX_ALUSrc <=0;
 			ID_EX_Read_Data <=0; 
 			ID_EX_Imm_Data <=0;
+			ID_EX_Read_Reg_Num <=0;
 			ID_EX_Write_Reg_Num <=0;
 		end
 		
@@ -35,6 +37,7 @@ module ID_EX_Reg(
 			ID_EX_ALUSrc <= IF_ID_ALUSrc;
 			ID_EX_Read_Data <= Read_Data; 
 			ID_EX_Imm_Data <= IF_ID_Imm_Data;
+			ID_EX_Read_Reg_Num <= Read_Reg_Num;
 			ID_EX_Write_Reg_Num <= Write_Reg_Num;
 		end
 	 end

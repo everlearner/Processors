@@ -1,0 +1,29 @@
+Command line:
+   Forwarding_Unit_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  61913
+
+Fri Apr 09 09:55:10 2021
+
+
+ Elaboration Time: 0.109375 sec
+
+ Current Memory Usage: 5150.73 Meg
+
+ Total Signals          : 16
+ Total Nets             : 21
+ Total Signal Drivers   : 6
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 8
+ Total Traceable Variables  : 19
+ Total Scalar Nets and Variables : 102
+Total Line Count : 19
+
+ Total Simulation Time: 0.125 sec
+
+ Current Memory Usage: 5150.73 Meg
+
+Fri Apr 09 09:55:19 2021
+

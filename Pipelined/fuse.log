@@ -8,6 +8,7 @@ Analyzing Verilog file "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/
 Analyzing Verilog file "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Instruction_Fetch.v" into library work
 Analyzing Verilog file "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/IF_ID_Reg.v" into library work
 Analyzing Verilog file "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/ID_EX_Reg.v" into library work
+Analyzing Verilog file "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Forwarding_Unit.v" into library work
 Analyzing Verilog file "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/EX_WB_Reg.v" into library work
 Analyzing Verilog file "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Control_Unit.v" into library work
 Analyzing Verilog file "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/ALU.v" into library work
@@ -15,10 +16,6 @@ Analyzing Verilog file "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/
 Analyzing Verilog file "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Test_Main.v" into library work
 Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
-WARNING:HDLCompiler:189 - "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Main_Processor.v" Line 19: Size mismatch in connection of port <Read_Reg_Num>. Formal port size is 3-bit while actual signal size is 8-bit.
-WARNING:HDLCompiler:189 - "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Main_Processor.v" Line 20: Size mismatch in connection of port <Read_Reg_Num>. Formal port size is 3-bit while actual signal size is 8-bit.
-WARNING:HDLCompiler:189 - "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Main_Processor.v" Line 22: Size mismatch in connection of port <Read_Data>. Formal port size is 3-bit while actual signal size is 8-bit.
-WARNING:HDLCompiler:189 - "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Main_Processor.v" Line 23: Size mismatch in connection of port <ID_EX_Write_Reg_Num>. Formal port size is 3-bit while actual signal size is 8-bit.
 Completed static elaboration
 Compiling module Instruction_Memory
 Compiling module Instruction_Fetch
@@ -28,12 +25,13 @@ Compiling module Register_File
 Compiling module ID_EX_Reg
 Compiling module ALU
 Compiling module EX_WB_Reg
+Compiling module Forwarding_Unit
 Compiling module Main_Processor
 Compiling module Test_Main
 Compiling module glbl
 Time Resolution for simulation is 1ps.
 Waiting for 1 sub-compilation(s) to finish...
-Compiled 11 Verilog Units
+Compiled 12 Verilog Units
 Built simulation executable C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Test_Main_isim_beh.exe
-Fuse Memory Usage: 28380 KB
-Fuse CPU Usage: 764 ms
+Fuse Memory Usage: 27588 KB
+Fuse CPU Usage: 1031 ms
