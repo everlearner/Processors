@@ -7,11 +7,13 @@ Analyzing Verilog file "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/
 Analyzing Verilog file "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Single_Cycle/Register_File.v" into library work
 Analyzing Verilog file "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Single_Cycle/Instruction_Fetch.v" into library work
 Analyzing Verilog file "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Single_Cycle/Execution_Writeback.v" into library work
+Analyzing Verilog file "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Single_Cycle/Control_Unit.v" into library work
 Analyzing Verilog file "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Single_Cycle/Main_Processor.v" into library work
 Analyzing Verilog file "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Single_Cycle/test_Main.v" into library work
 Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
 Completed static elaboration
+Compiling module Control_Unit
 Compiling module Instruction_Memory
 Compiling module Instruction_Fetch
 Compiling module Register_File
@@ -21,7 +23,7 @@ Compiling module test_Main
 Compiling module glbl
 Time Resolution for simulation is 1ps.
 Waiting for 1 sub-compilation(s) to finish...
-Compiled 7 Verilog Units
+Compiled 8 Verilog Units
 Built simulation executable C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Single_Cycle/test_Main_isim_beh.exe
-Fuse Memory Usage: 28192 KB
-Fuse CPU Usage: 436 ms
+Fuse Memory Usage: 28348 KB
+Fuse CPU Usage: 358 ms

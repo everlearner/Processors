@@ -29,10 +29,12 @@ wire [7:0] Instruction_Code, Read_Data, Write_Data, Imm_Data;
 //end
 
 
-		assign PCSrc =  Instruction_Code[7];
-		assign RegWrite = ~ Instruction_Code[7];
-		assign ALUSrc = Instruction_Code[6];
-		assign ImmSel = Instruction_Code[7];
+//		assign PCSrc =  Instruction_Code[7];
+//		assign RegWrite = ~ Instruction_Code[7];
+//		assign ALUSrc = Instruction_Code[6];
+//		assign ImmSel = Instruction_Code[7];
+
+Control_Unit Ctrl(Instruction_Code[7:6], PCSrc, RegWrite, ALUSrc, ImmSel);
 
 Instruction_Fetch IF(Clk, Reset,PCSrc, Imm_Data, Instruction_Code);
 
