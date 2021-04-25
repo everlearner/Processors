@@ -24,7 +24,7 @@
 static const char *ng0 = "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Test_Main.v";
 static int ng1[] = {0, 0};
 static int ng2[] = {1, 0};
-static int ng3[] = {15, 0};
+static int ng3[] = {16, 0};
 
 
 
@@ -49,7 +49,7 @@ LAB4:    xsi_set_current_line(17, ng0);
     xsi_vlogvar_assign_value(t3, t2, 0, 0, 1);
     xsi_set_current_line(18, ng0);
     t2 = (t0 + 2176);
-    xsi_process_wait(t2, 4000LL);
+    xsi_process_wait(t2, 2000LL);
     *((char **)t1) = &&LAB5;
 
 LAB1:    return;
@@ -59,7 +59,7 @@ LAB5:    xsi_set_current_line(19, ng0);
     xsi_vlogvar_assign_value(t3, t2, 0, 0, 1);
     xsi_set_current_line(20, ng0);
     t2 = (t0 + 2176);
-    xsi_process_wait(t2, 4000LL);
+    xsi_process_wait(t2, 2000LL);
     *((char **)t1) = &&LAB6;
     goto LAB1;
 
@@ -135,13 +135,13 @@ LAB5:    t9 = (t0 + 4488);
 
 LAB7:    xsi_set_current_line(28, ng0);
     t2 = (t0 + 2424);
-    xsi_process_wait(t2, 10000LL);
+    xsi_process_wait(t2, 5000LL);
     *((char **)t1) = &&LAB15;
 
 LAB1:    return;
 LAB6:    xsi_set_current_line(27, ng0);
     t10 = (t0 + 2424);
-    xsi_process_wait(t10, 10000LL);
+    xsi_process_wait(t10, 5000LL);
     *((char **)t1) = &&LAB8;
     goto LAB1;
 

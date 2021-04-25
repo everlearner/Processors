@@ -11,5 +11,32 @@
 <msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/ALU.v&quot; into library work</arg>
 </msg>
 
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Control_Unit.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/EX_WB_Reg.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Forwarding_Unit.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/ID_EX_Reg.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/IF_ID_Reg.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Instruction_Fetch.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Instruction_Memory.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Main_Processor.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assign/Pipelined/Register_File.v&quot; into library work</arg>
+</msg>
+
 </messages>
 

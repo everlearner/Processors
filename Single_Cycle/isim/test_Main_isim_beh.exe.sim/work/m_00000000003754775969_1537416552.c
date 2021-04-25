@@ -116,7 +116,7 @@ LAB9:    t22 = (t6 + 4);
 
 LAB11:    xsi_set_current_line(23, ng0);
 
-LAB14:    xsi_set_current_line(26, ng0);
+LAB14:    xsi_set_current_line(24, ng0);
     t2 = (t0 + 1368U);
     t3 = *((char **)t2);
     t2 = ((char*)((ng2)));
@@ -152,9 +152,9 @@ LAB18:    t8 = (t6 + 4);
     if (t27 > 0)
         goto LAB19;
 
-LAB20:    xsi_set_current_line(32, ng0);
+LAB20:    xsi_set_current_line(30, ng0);
 
-LAB23:    xsi_set_current_line(33, ng0);
+LAB23:    xsi_set_current_line(31, ng0);
     t2 = (t0 + 2088);
     t3 = (t2 + 56U);
     t4 = *((char **)t3);
@@ -189,9 +189,9 @@ LAB17:    t7 = (t6 + 4);
     *((unsigned int *)t7) = 1;
     goto LAB18;
 
-LAB19:    xsi_set_current_line(27, ng0);
+LAB19:    xsi_set_current_line(25, ng0);
 
-LAB22:    xsi_set_current_line(28, ng0);
+LAB22:    xsi_set_current_line(26, ng0);
     t21 = (t0 + 2088);
     t22 = (t21 + 56U);
     t28 = *((char **)t22);

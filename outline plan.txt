@@ -20,8 +20,8 @@ li R5,3				// 00 101 011 -- 0x2B  => R5 = 3
 addi R5, 2			// 01 101 010 -- 0x6A  => R5 = 5	
 addi R4, 3			// 01 100 011 -- 0x63  => R4 = 7
 j L1				// 11 000 001 -- 0xC1
-li R2, 4			// 00 010 100 -- 0x14 -> 4 cannot be represented in3bit
-L1: addi R2, -3		// 01 010 101 -- 0x55  => R2 = -1
+li R2, 4			// 00 010 100 -- 0x14 
+L1: addi R2, -3			// 01 010 101 -- 0x55  => R2 = -1
 	
 ## Instruction 	Memory plan
 

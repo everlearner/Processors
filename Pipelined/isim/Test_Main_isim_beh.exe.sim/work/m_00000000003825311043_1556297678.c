@@ -25,7 +25,7 @@ static const char *ng0 = "C:/Users/Keshav Kabra/Desktop/study/3-2/CompArch/assig
 
 
 
-static void Cont_18_0(char *t0)
+static void Cont_24_0(char *t0)
 {
     char t3[8];
     char *t1;
@@ -60,7 +60,7 @@ LAB0:    t1 = (t0 + 6208U);
 
 LAB3:    goto *t2;
 
-LAB2:    xsi_set_current_line(18, ng0);
+LAB2:    xsi_set_current_line(24, ng0);
     t2 = (t0 + 3288U);
     t4 = *((char **)t2);
     memset(t3, 0, 8);
@@ -101,7 +101,7 @@ LAB2:    xsi_set_current_line(18, ng0);
 LAB1:    return;
 }
 
-static void Cont_19_1(char *t0)
+static void Cont_25_1(char *t0)
 {
     char t3[8];
     char *t1;
@@ -136,7 +136,7 @@ LAB0:    t1 = (t0 + 6456U);
 
 LAB3:    goto *t2;
 
-LAB2:    xsi_set_current_line(19, ng0);
+LAB2:    xsi_set_current_line(25, ng0);
     t2 = (t0 + 3288U);
     t4 = *((char **)t2);
     memset(t3, 0, 8);
@@ -180,7 +180,7 @@ LAB1:    return;
 
 extern void work_m_00000000003825311043_1556297678_init()
 {
-	static char *pe[] = {(void *)Cont_18_0,(void *)Cont_19_1};
+	static char *pe[] = {(void *)Cont_24_0,(void *)Cont_25_1};
 	xsi_register_didat("work_m_00000000003825311043_1556297678", "isim/Test_Main_isim_beh.exe.sim/work/m_00000000003825311043_1556297678.didat");
 	xsi_register_executes(pe);
 }
